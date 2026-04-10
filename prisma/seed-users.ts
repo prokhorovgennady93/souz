@@ -55,7 +55,7 @@ async function main() {
 
   console.log("Добавление закрепленных сотрудников...");
   for (const item of usersData) {
-    const branch = allBranches.find(b => b.name === item.branchName);
+    const branch = allBranches.find((b: any) => b.name === item.branchName);
     if (!branch) {
       console.warn(`Филиал не найден для ${item.fullName}: ${item.branchName}`);
       continue;
