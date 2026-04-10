@@ -1,0 +1,346 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+  output          = "../src/generated/client"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String  @id @default(cuid())
+  phone         String  @unique
+  password      String
+  plainPassword String?
+  fullName      String
+  role          String  @default("CANDIDATE") // ADMIN, SENIOR_MANAGER, EMPLOYEE, CANDIDATE
+  branchId      String?
+
+  workTimeStart  String?
+  workTimeEnd    String?
+  breakTimeStart String?
+  breakTimeEnd   String?
+
+  isOffDay Boolean @default(false)
+
+  branch          Branch?            @relation(fields: [branchId], references: [id])
+  tasksCreated    Task[]             @relation("TaskCreator")
+  tasksAssigned   Task[]             @relation("TaskAssignee")
+  taskCompletions TaskCompletion[]
+  newsCreated     News[]
+  newsReads       NewsConfirmation[]
+  shifts          Shift[]
+
+  examAttempts      ExamAttempt[]
+  courseProgress    UserCourseProgress[]
+  penalties         Penalty[]
+  scheduleOverrides UserScheduleOverride[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model UserScheduleOverride {
+  id     String   @id @default(cuid())
+  userId String
+  date   DateTime
+
+  branchId       String?
+  workTimeStart  String?
+  workTimeEnd    String?
+  breakTimeStart String?
+  breakTimeEnd   String?
+  isOffDay       Boolean @default(false)
+
+  user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  branch Branch? @relation(fields: [branchId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, date])
+}
+
+model Branch {
+  id             String  @id @default(cuid())
+  name           String
+  address        String
+  phone          String?
+  scheduleType   String  @default("5/2") // 2/2, 5/2, 3/3
+  openTime       String  @default("09:00")
+  closeTime      String  @default("18:00")
+  breakStartTime String  @default("13:00")
+  breakEndTime   String  @default("14:00")
+
+  rtspUrl    String?
+  expectedIp String?
+
+  users                 User[]
+  shifts                Shift[]
+  scheduleOverrides     BranchScheduleOverride[]
+  userScheduleOverrides UserScheduleOverride[]
+  tasks                 Task[]                   @relation("BranchTasks")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model BranchScheduleOverride {
+  id        String   @id @default(cuid())
+  branchId  String
+  date      DateTime
+  openTime  String?
+  closeTime String?
+  isClosed  Boolean  @default(false)
+
+  branch Branch @relation(fields: [branchId], references: [id], onDelete: Cascade)
+}
+
+model Shift {
+  id         String    @id @default(cuid())
+  userId     String
+  branchId   String
+  openedAt   DateTime  @default(now())
+  closedAt   DateTime?
+  autoClosed Boolean   @default(false)
+  latitude   Float?
+  longitude  Float?
+
+  user   User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  branch Branch       @relation(fields: [branchId], references: [id], onDelete: Cascade)
+  breaks ShiftBreak[]
+  audits ShiftAudit[]
+}
+
+model ShiftAudit {
+  id         String @id @default(cuid())
+  shiftId    String
+  actionType String // START, BREAK_END
+
+  imageUrl1 String?
+  imageUrl2 String?
+  imageUrl3 String?
+
+  clientIp  String?
+  isMatch   Boolean  @default(false)
+  timestamp DateTime @default(now())
+
+  shift Shift @relation(fields: [shiftId], references: [id], onDelete: Cascade)
+}
+
+model ShiftBreak {
+  id        String    @id @default(cuid())
+  shiftId   String
+  startedAt DateTime  @default(now())
+  endedAt   DateTime?
+  reason    String?
+
+  shift Shift @relation(fields: [shiftId], references: [id], onDelete: Cascade)
+}
+
+model TaskTemplate {
+  id                  String  @id @default(cuid())
+  title               String
+  description         String?
+  priority            String  @default("NORMAL")
+  category            String  @default("REGULAR")
+  instructionImageUrl String?
+
+  creatorId        String
+  assignedUserId   String?
+  assignedBranchId String?
+  targetRole       String?
+  targetAllUsers   Boolean @default(false)
+  points           Float   @default(0)
+
+  frequency  String // ONCE, DAILY, WEEKLY, MONTHLY
+  dayOfWeek  Int? // 1-7 (Mon-Sun)
+  dayOfMonth Int? // 1-31
+
+  requirements TaskRequirement[]
+  tasks        Task[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Task {
+  id          String  @id @default(cuid())
+  title       String
+  description String? // Markdown support
+  priority    String  @default("NORMAL") // LOW, NORMAL, HIGH, URGENT
+  category    String  @default("REGULAR")
+
+  creatorId String
+  creator   User   @relation("TaskCreator", fields: [creatorId], references: [id])
+
+  assignedUserId String?
+  assignee       User?   @relation("TaskAssignee", fields: [assignedUserId], references: [id])
+
+  assignedBranchId String?
+  branch           Branch? @relation("BranchTasks", fields: [assignedBranchId], references: [id])
+
+  targetAllUsers      Boolean @default(false)
+  targetRole          String? // Optional role targeting (ADMIN, SENIOR_MANAGER, EMPLOYEE)
+  instructionImageUrl String?
+
+  templateId String?
+  template   TaskTemplate? @relation(fields: [templateId], references: [id], onDelete: SetNull)
+
+  scheduledAt DateTime  @default(now())
+  deadline    DateTime?
+  points      Float     @default(0)
+  isCompleted Boolean   @default(false)
+
+  requirements TaskRequirement[]
+  completions  TaskCompletion[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Penalty {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  amount    Float
+  reason    String
+  type      String   @default("MANUAL") // MANUAL, TASK_OVERDUE
+  taskId    String?
+  createdAt DateTime @default(now())
+}
+
+model TaskRequirement {
+  id         String  @id @default(cuid())
+  taskId     String?
+  templateId String?
+  type       String // CHECKLIST, TEXT, PHOTO
+  label      String // e.g. "Photo of the counter"
+  isRequired Boolean @default(true)
+  order      Int     @default(0)
+
+  task      Task?          @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  template  TaskTemplate?  @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  responses TaskResponse[]
+}
+
+model TaskCompletion {
+  id      String  @id @default(cuid())
+  taskId  String
+  userId  String
+  comment String?
+
+  responses TaskResponse[]
+
+  task      Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+}
+
+model TaskResponse {
+  id            String  @id @default(cuid())
+  completionId  String
+  requirementId String
+  value         String? // Text input or checkbox state
+  imageUrl      String? // Stored in public/uploads/tasks/
+
+  completion  TaskCompletion  @relation(fields: [completionId], references: [id], onDelete: Cascade)
+  requirement TaskRequirement @relation(fields: [requirementId], references: [id])
+}
+
+model News {
+  id          String  @id @default(cuid())
+  title       String
+  content     String // Markdown support
+  creatorId   String
+  department  String? // Бухгалтерия, Учебная часть, Отдел продаж, Архив, Руководство
+  imageUrl    String?
+  videoUrl    String?
+  isImportant Boolean @default(false)
+
+  creator       User               @relation(fields: [creatorId], references: [id])
+  confirmations NewsConfirmation[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model NewsConfirmation {
+  id     String   @id @default(cuid())
+  newsId String
+  userId String
+  readAt DateTime @default(now())
+
+  news News @relation(fields: [newsId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([newsId, userId])
+}
+
+model Course {
+  id          String  @id @default(cuid())
+  title       String
+  description String?
+
+  lessons      Lesson[]
+  userProgress UserCourseProgress[]
+  examAttempts ExamAttempt[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Lesson {
+  id       String  @id @default(cuid())
+  courseId String
+  title    String
+  content  String?
+  videoUrl String?
+  order    Int     @default(0)
+
+  course    Course     @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  questions Question[]
+}
+
+model Question {
+  id          String  @id @default(cuid())
+  lessonId    String
+  text        String
+  isOpenEnded Boolean @default(false)
+
+  lesson  Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  options Option[]
+}
+
+model Option {
+  id         String  @id @default(cuid())
+  questionId String
+  text       String
+  isCorrect  Boolean @default(false)
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+model UserCourseProgress {
+  id                 String @id @default(cuid())
+  userId             String
+  courseId           String
+  completedLessonIds String
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseId])
+}
+
+model ExamAttempt {
+  id       String  @id @default(cuid())
+  userId   String
+  courseId String
+  score    Int     @default(0)
+  isPassed Boolean @default(false)
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+}

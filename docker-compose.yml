@@ -1,0 +1,32 @@
+services:
+  app:
+    build: .
+    container_name: adr-platform
+    expose:
+      - "3000"
+    volumes:
+      - ./data:/app/prisma/data
+    environment:
+      - DATABASE_URL=file:/app/prisma/data/prod.db
+      - AUTH_SECRET=${AUTH_SECRET:-9f8e7d6c5b4a32109f8e7d6c5b4a3210}
+      - NEXTAUTH_URL=${NEXTAUTH_URL:-http://localhost:3000}
+      - AUTH_TRUST_HOST=true
+    restart: always
+
+  caddy:
+    image: caddy:latest
+    container_name: caddy-proxy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - app
+
+volumes:
+  caddy_data:
+  caddy_config:

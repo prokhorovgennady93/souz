@@ -1,0 +1,6 @@
+prodopog.ru, www.prodopog.ru {
+    reverse_proxy adr-platform:3000
+    
+    # Enable gzipping for better performance
+    encode gzip
+}

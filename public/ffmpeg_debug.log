@@ -1,0 +1,1128 @@
+[2026-04-02T06:05:18.357Z] --- Starting Audit cmnh2m2yt000r2j888zk3pebh for shift cmnh2m2xa000p2j885cjg9jkw (START) ---
+[2026-04-02T06:05:18.359Z] Attempting capture 1 to: audit_cmnh2m2yt000r2j888zk3pebh_1.jpg
+[2026-04-02T06:05:33.382Z] TIMEOUT: Capture 1 killed after 15s
+[2026-04-02T06:05:38.390Z] Attempting capture 2 to: audit_cmnh2m2yt000r2j888zk3pebh_2.jpg
+[2026-04-02T06:05:53.981Z] TIMEOUT: Capture 2 killed after 15s
+[2026-04-02T06:06:03.992Z] Attempting capture 3 to: audit_cmnh2m2yt000r2j888zk3pebh_3.jpg
+[2026-04-02T06:06:13.428Z] --- Starting Audit cmnh2n9gk000v2j88va08wqh9 for shift cmnh2m2xa000p2j885cjg9jkw (BREAK_END) ---
+[2026-04-02T06:06:13.429Z] Attempting capture 1 to: audit_cmnh2n9gk000v2j88va08wqh9_1.jpg
+[2026-04-02T06:06:19.012Z] TIMEOUT: Capture 3 killed after 15s
+[2026-04-02T06:06:19.013Z] --- Audit cmnh2m2yt000r2j888zk3pebh Finished ---
+[2026-04-02T06:06:28.447Z] TIMEOUT: Capture 1 killed after 15s
+[2026-04-02T06:06:33.453Z] Attempting capture 2 to: audit_cmnh2n9gk000v2j88va08wqh9_2.jpg
+[2026-04-02T06:06:48.465Z] TIMEOUT: Capture 2 killed after 15s
+[2026-04-02T06:06:58.478Z] Attempting capture 3 to: audit_cmnh2n9gk000v2j88va08wqh9_3.jpg
+[2026-04-02T06:07:13.512Z] TIMEOUT: Capture 3 killed after 15s
+[2026-04-02T06:07:13.513Z] --- Audit cmnh2n9gk000v2j88va08wqh9 Finished ---
+[2026-04-02T06:10:18.636Z] --- Starting Audit cmnh2si9b000z2j888d2o0bc9 for shift cmnh2si1g000x2j88he2e30yx (START) ---
+[2026-04-02T06:10:18.639Z] [CAPTURE 1] Target: audit_cmnh2si9b000z2j888d2o0bc9_1.jpg
+[2026-04-02T06:10:18.914Z] [FFMPEG STDERR 1]: "C:\Users\���誮��\Desktop\souz\.next\dev\server\vendor-chunks\ffmpeg.exe" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"password" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"channel" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"stream" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+[2026-04-02T06:10:18.922Z] [FAILURE 1] Code 1. Final Output: ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"password" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"channel" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"stream" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+
+[2026-04-02T06:10:23.949Z] [CAPTURE 2] Target: audit_cmnh2si9b000z2j888d2o0bc9_2.jpg
+[2026-04-02T06:10:24.022Z] [FFMPEG STDERR 2]: "C:\Users\���誮��\Desktop\souz\.next\dev\server\vendor-chunks\ffmpeg.exe" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+[2026-04-02T06:10:24.039Z] [FFMPEG STDERR 2]: "password" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+[2026-04-02T06:10:24.046Z] [FFMPEG STDERR 2]: "channel" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+[2026-04-02T06:10:24.060Z] [FFMPEG STDERR 2]: "stream" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+[2026-04-02T06:10:24.067Z] [FAILURE 2] Code 1. Final Output: ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"password" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"channel" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"stream" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+
+[2026-04-02T06:10:34.077Z] [CAPTURE 3] Target: audit_cmnh2si9b000z2j888d2o0bc9_3.jpg
+[2026-04-02T06:10:34.112Z] [FFMPEG STDERR 3]: "C:\Users\���誮��\Desktop\souz\.next\dev\server\vendor-chunks\ffmpeg.exe" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+[2026-04-02T06:10:34.115Z] [FFMPEG STDERR 3]: "password" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+[2026-04-02T06:10:34.118Z] [FFMPEG STDERR 3]: "channel" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+[2026-04-02T06:10:34.121Z] [FFMPEG STDERR 3]: "stream" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+[2026-04-02T06:10:34.124Z] [FAILURE 3] Code 1. Final Output: ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"password" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"channel" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+"stream" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+
+[2026-04-02T06:10:34.125Z] --- Audit cmnh2si9b000z2j888d2o0bc9 Finished ---
+[2026-04-02T06:12:39.893Z] --- Starting Audit cmnh2vjnb00132j88eo18n5r3 for shift cmnh2vjmf00112j88aot53ubc (START) ---
+[2026-04-02T06:12:39.895Z] [CAPTURE 1] Target: audit_cmnh2vjnb00132j88eo18n5r3_1.jpg
+[2026-04-02T06:13:14.917Z] [CAPTURE 2] Target: audit_cmnh2vjnb00132j88eo18n5r3_2.jpg
+[2026-04-02T06:13:54.943Z] [CAPTURE 3] Target: audit_cmnh2vjnb00132j88eo18n5r3_3.jpg
+[2026-04-02T06:14:25.017Z] --- Audit cmnh2vjnb00132j88eo18n5r3 Finished ---
+[2026-04-02T06:18:21.110Z] --- Starting Audit cmnh32uy200172j88ikmdlqau for shift cmnh32uwt00152j88lio3hzuv (START) ---
+[2026-04-02T06:18:21.113Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-02T06:18:21.113Z] [CAPTURE 1] Target: audit_cmnh32uy200172j88ikmdlqau_1.jpg
+[2026-04-02T06:18:23.912Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-02T06:18:25.008Z] [FFMPEG STDERR 1]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-02T06:18:25.095Z] [FFMPEG STDERR 1]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnh32uy200172j88ikmdlqau_1.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-02T06:18:25.143Z] [FFMPEG STDERR 1]: frame=    1 fps=0.0 q=12.1 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T06:18:25.146Z] [FFMPEG STDERR 1]: 
+[2026-04-02T06:18:25.150Z] [FFMPEG STDERR 1]: [out#0/image2 @ 00000213ffddc240] video:251kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[2026-04-02T06:18:25.152Z] [FFMPEG STDERR 1]: frame=    1 fps=0.0 q=12.1 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T06:18:25.232Z] [SUCCESS 1] Saved to: audit_cmnh32uy200172j88ikmdlqau_1.jpg
+[2026-04-02T06:18:30.349Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-02T06:18:30.350Z] [CAPTURE 2] Target: audit_cmnh32uy200172j88ikmdlqau_2.jpg
+[2026-04-02T06:18:30.973Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-02T06:18:32.254Z] [FFMPEG STDERR 2]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start:
+[2026-04-02T06:18:32.257Z] [FFMPEG STDERR 2]: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-02T06:18:32.274Z] [FFMPEG STDERR 2]: Stream mapping:
+[2026-04-02T06:18:32.277Z] [FFMPEG STDERR 2]: Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-02T06:18:32.484Z] [FFMPEG STDERR 2]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnh32uy200172j88ikmdlqau_2.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+[2026-04-02T06:18:32.486Z] [FFMPEG STDERR 2]: Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-02T06:18:32.611Z] [FFMPEG STDERR 2]: frame=    1 fps=0.0 q=12.1 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T06:18:32.613Z] [FFMPEG STDERR 2]: 
+[2026-04-02T06:18:32.623Z] [FFMPEG STDERR 2]: [out#0/image2 @ 0000021859bbe240] video:251kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[2026-04-02T06:18:32.646Z] [FFMPEG STDERR 2]: frame=    1 fps=0.0 q=12.1 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T06:18:33.196Z] [SUCCESS 2] Saved to: audit_cmnh32uy200172j88ikmdlqau_2.jpg
+[2026-04-02T06:19:10.380Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-02T06:19:10.381Z] [CAPTURE 3] Target: audit_cmnh32uy200172j88ikmdlqau_3.jpg
+[2026-04-02T06:19:10.485Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev
+[2026-04-02T06:19:10.490Z] [FFMPEG STDERR 3]: Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-02T06:19:11.884Z] [FFMPEG STDERR 3]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A
+[2026-04-02T06:19:11.887Z] [FFMPEG STDERR 3]: , start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-02T06:19:11.899Z] [FFMPEG STDERR 3]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-02T06:19:12.047Z] [FFMPEG STDERR 3]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnh32uy200172j88ikmdlqau_3.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+[2026-04-02T06:19:12.050Z] [FFMPEG STDERR 3]: Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-02T06:19:12.126Z] [FFMPEG STDERR 3]: frame=    0 fps=0.0 q=12.1 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T06:19:12.132Z] [FFMPEG STDERR 3]: [out#0/image2 @ 000001aa6bbf2080]
+[2026-04-02T06:19:12.135Z] [FFMPEG STDERR 3]: video:251kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=12.1 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T06:19:12.170Z] [SUCCESS 3] Saved to: audit_cmnh32uy200172j88ikmdlqau_3.jpg
+[2026-04-02T06:19:40.423Z] --- Audit cmnh32uy200172j88ikmdlqau Finished ---
+[2026-04-02T10:20:24.124Z] --- Starting Audit cmnhbq4vy00035tt3hdu7082s for shift cmnhbq4u800015tt3r80lh8dz (START) ---
+[2026-04-02T10:20:24.134Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-02T10:20:24.135Z] [CAPTURE 1] Target: audit_cmnhbq4vy00035tt3hdu7082s_1.jpg
+[2026-04-02T10:20:26.768Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-02T10:20:28.620Z] [FFMPEG STDERR 1]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnhbq4vy00035tt3hdu7082s_1.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=11.7 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    [out#0/image2 @ 00000223cc191c00] video:231kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T10:20:28.634Z] [SUCCESS 1] Saved to: audit_cmnhbq4vy00035tt3hdu7082s_1.jpg
+[2026-04-02T10:20:33.676Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-02T10:20:33.720Z] [CAPTURE 2] Target: audit_cmnhbq4vy00035tt3hdu7082s_2.jpg
+[2026-04-02T10:20:34.560Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-02T10:20:35.382Z] [FFMPEG STDERR 2]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-02T10:20:35.457Z] [FFMPEG STDERR 2]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-02T10:20:37.193Z] [FFMPEG STDERR 2]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnhbq4vy00035tt3hdu7082s_2.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=11.7 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [out#0/image2 @ 000001bab9bf0e80] video:229kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T10:20:37.366Z] [SUCCESS 2] Saved to: audit_cmnhbq4vy00035tt3hdu7082s_2.jpg
+[2026-04-02T10:21:02.950Z] --- Starting Audit cmnhbqyxe00075tt3ezyxbbgx for shift cmnhbq4u800015tt3r80lh8dz (BREAK_END) ---
+[2026-04-02T10:21:02.955Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-02T10:21:02.956Z] [CAPTURE 1] Target: audit_cmnhbqyxe00075tt3ezyxbbgx_1.jpg
+[2026-04-02T10:21:03.059Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-02T10:21:04.422Z] [FFMPEG STDERR 1]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-02T10:21:04.549Z] [FFMPEG STDERR 1]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnhbqyxe00075tt3ezyxbbgx_1.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=11.7 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [out#0/image2 @ 000002a07db53fc0] video:231kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T10:21:04.551Z] [SUCCESS 1] Saved to: audit_cmnhbqyxe00075tt3ezyxbbgx_1.jpg
+[2026-04-02T10:21:09.570Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-02T10:21:09.571Z] [CAPTURE 2] Target: audit_cmnhbqyxe00075tt3ezyxbbgx_2.jpg
+[2026-04-02T10:21:09.615Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-02T10:21:09.617Z] [FFMPEG STDERR 2]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-02T10:21:10.982Z] [FFMPEG STDERR 2]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration:
+[2026-04-02T10:21:10.990Z] [FFMPEG STDERR 2]: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-02T10:21:11.004Z] [FFMPEG STDERR 2]: Stream mapping:
+  Stream #0:0 -> #0:0
+[2026-04-02T10:21:11.008Z] [FFMPEG STDERR 2]: (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-02T10:21:11.109Z] [FFMPEG STDERR 2]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnhbqyxe00075tt3ezyxbbgx_2.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0
+[2026-04-02T10:21:11.112Z] [FFMPEG STDERR 2]: : Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-02T10:21:11.148Z] [FFMPEG STDERR 2]: frame=    0 fps=0.0 q=11.7 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T10:21:11.152Z] [FFMPEG STDERR 2]: [out#0/image2 @ 0000023a0b824140] video:231kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T10:21:11.176Z] [SUCCESS 2] Saved to: audit_cmnhbqyxe00075tt3ezyxbbgx_2.jpg
+[2026-04-02T10:21:14.045Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-02T10:21:14.046Z] [CAPTURE 3] Target: audit_cmnhbq4vy00035tt3hdu7082s_3.jpg
+[2026-04-02T10:21:14.115Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-02T10:21:14.118Z] [FFMPEG STDERR 3]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-02T10:21:15.924Z] [FFMPEG STDERR 3]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/
+[2026-04-02T10:21:15.932Z] [FFMPEG STDERR 3]: A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-02T10:21:15.938Z] [FFMPEG STDERR 3]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-02T10:21:16.033Z] [FFMPEG STDERR 3]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnhbq4vy00035tt3hdu7082s_3.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+[2026-04-02T10:21:16.036Z] [FFMPEG STDERR 3]: Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-02T10:21:16.067Z] [FFMPEG STDERR 3]: frame=    0 fps=0.0 q=11.7 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T10:21:16.070Z] [FFMPEG STDERR 3]: [out#0/image2 @ 000002025b0e8b00] video:231kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T10:21:16.091Z] [SUCCESS 3] Saved to: audit_cmnhbq4vy00035tt3hdu7082s_3.jpg
+[2026-04-02T10:21:44.076Z] --- Audit cmnhbq4vy00035tt3hdu7082s Finished ---
+[2026-04-02T10:21:49.606Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-02T10:21:49.607Z] [CAPTURE 3] Target: audit_cmnhbqyxe00075tt3ezyxbbgx_3.jpg
+[2026-04-02T10:21:49.702Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-02T10:21:49.705Z] [FFMPEG STDERR 3]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-02T10:21:51.043Z] [FFMPEG STDERR 3]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate:
+[2026-04-02T10:21:51.049Z] [FFMPEG STDERR 3]: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-02T10:21:51.059Z] [FFMPEG STDERR 3]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-02T10:21:51.168Z] [FFMPEG STDERR 3]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnhbqyxe00075tt3ezyxbbgx_3.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+[2026-04-02T10:21:51.170Z] [FFMPEG STDERR 3]: Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-02T10:21:51.193Z] [FFMPEG STDERR 3]: frame=    0 fps=0.0 q=11.7 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T10:21:51.196Z] [FFMPEG STDERR 3]: [out#0/image2 @ 000001833aa91c00] video:232kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-02T10:21:51.219Z] [SUCCESS 3] Saved to: audit_cmnhbqyxe00075tt3ezyxbbgx_3.jpg
+[2026-04-02T10:22:19.641Z] --- Audit cmnhbqyxe00075tt3ezyxbbgx Finished ---
+[2026-04-04T10:25:09.303Z] --- Starting Audit cmnk6ryco0003dk3lovcujm08 for shift cmnk6rybf0001dk3l83kjodc5 (START) ---
+[2026-04-04T10:25:09.308Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-04T10:25:09.308Z] [CAPTURE 1] Target: audit_cmnk6ryco0003dk3lovcujm08_1.jpg
+[2026-04-04T10:25:12.527Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-04T10:25:42.209Z] [TIMEOUT 1] Killed after 30s. Last Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T10:25:42.298Z] [FAILURE 1] Code null. Final Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T10:25:51.883Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-04T10:25:51.883Z] [CAPTURE 2] Target: audit_cmnk6ryco0003dk3lovcujm08_2.jpg
+[2026-04-04T10:25:52.310Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-04T10:26:21.920Z] [TIMEOUT 2] Killed after 30s. Last Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T10:26:21.927Z] [FAILURE 2] Code null. Final Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T10:26:31.933Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-04T10:26:31.933Z] [CAPTURE 3] Target: audit_cmnk6ryco0003dk3lovcujm08_3.jpg
+[2026-04-04T10:26:31.990Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-04T10:26:31.992Z] [FFMPEG STDERR 3]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-04T10:27:01.964Z] [TIMEOUT 3] Killed after 30s. Last Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T10:27:01.965Z] --- Audit cmnk6ryco0003dk3lovcujm08 Finished ---
+[2026-04-04T10:27:01.974Z] [FAILURE 3] Code null. Final Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T11:06:02.098Z] --- Starting Audit cmnk88ixi0007dk3lmw7mhhv7 for shift cmnk88iuh0005dk3lg197zrjx (START) ---
+[2026-04-04T11:06:02.103Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-04T11:06:02.104Z] [CAPTURE 1] Target: audit_cmnk88ixi0007dk3lmw7mhhv7_1.jpg
+[2026-04-04T11:06:02.857Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-04T11:06:32.187Z] [TIMEOUT 1] Killed after 30s. Last Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T11:06:32.256Z] [FAILURE 1] Code null. Final Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T11:06:37.192Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-04T11:06:37.192Z] [CAPTURE 2] Target: audit_cmnk88ixi0007dk3lmw7mhhv7_2.jpg
+[2026-04-04T11:06:37.233Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-04T11:06:37.235Z] [FFMPEG STDERR 2]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-04T11:07:07.614Z] [TIMEOUT 2] Killed after 30s. Last Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T11:07:07.839Z] [FAILURE 2] Code null. Final Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T11:07:17.616Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-04T11:07:17.617Z] [CAPTURE 3] Target: audit_cmnk88ixi0007dk3lmw7mhhv7_3.jpg
+[2026-04-04T11:07:17.733Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-04T11:07:47.644Z] [TIMEOUT 3] Killed after 30s. Last Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-04T11:07:47.645Z] --- Audit cmnk88ixi0007dk3lmw7mhhv7 Finished ---
+[2026-04-04T11:07:47.649Z] [FAILURE 3] Code null. Final Output: .100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[2026-04-06T08:32:36.884Z] --- Starting Audit cmnmxmxi00005h22zhjax1n7r for shift cmnmxmxhg0003h22zn1ky6zoj (START) ---
+[2026-04-06T08:32:36.889Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-06T08:32:36.889Z] [CAPTURE 1] Target: audit_cmnmxmxi00005h22zhjax1n7r_1.jpg
+[2026-04-06T08:32:39.390Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-06T08:32:40.695Z] [FFMPEG STDERR 1]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-06T08:32:40.718Z] [FFMPEG STDERR 1]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-06T08:32:40.863Z] [FFMPEG STDERR 1]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnmxmxi00005h22zhjax1n7r_1.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-06T08:32:40.888Z] [FFMPEG STDERR 1]: frame=    1 fps=0.0 q=12.3 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-06T08:32:40.909Z] [FFMPEG STDERR 1]: [out#0/image2 @ 000001736b3c4c00] video:269kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=12.3 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-06T08:32:41.072Z] [SUCCESS 1] Saved to: audit_cmnmxmxi00005h22zhjax1n7r_1.jpg
+[2026-04-06T08:32:46.107Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-06T08:32:46.108Z] [CAPTURE 2] Target: audit_cmnmxmxi00005h22zhjax1n7r_2.jpg
+[2026-04-06T08:32:46.164Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev
+[2026-04-06T08:32:46.166Z] [FFMPEG STDERR 2]: Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-06T08:32:47.628Z] [FFMPEG STDERR 2]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-06T08:32:47.873Z] [FFMPEG STDERR 2]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnmxmxi00005h22zhjax1n7r_2.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-06T08:32:47.954Z] [FFMPEG STDERR 2]: frame=    1 fps=0.0 q=12.3 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-06T08:32:47.972Z] [FFMPEG STDERR 2]: [out#0/image2 @ 00000259281d5ec0] video:270kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=12.3 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-06T08:32:48.009Z] [SUCCESS 2] Saved to: audit_cmnmxmxi00005h22zhjax1n7r_2.jpg
+[2026-04-06T08:33:28.688Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-06T08:33:28.693Z] [CAPTURE 3] Target: audit_cmnmxmxi00005h22zhjax1n7r_3.jpg
+[2026-04-06T08:33:28.964Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-06T08:33:30.139Z] [FFMPEG STDERR 3]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-06T08:33:30.161Z] [FFMPEG STDERR 3]: Stream mapping:
+[2026-04-06T08:33:30.164Z] [FFMPEG STDERR 3]: Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-06T08:33:30.267Z] [FFMPEG STDERR 3]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnmxmxi00005h22zhjax1n7r_3.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.10
+[2026-04-06T08:33:30.269Z] [FFMPEG STDERR 3]: 0
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-06T08:33:30.320Z] [FFMPEG STDERR 3]: frame=    1 fps=0.0 q=12.3 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-06T08:33:30.323Z] [FFMPEG STDERR 3]: 
+[2026-04-06T08:33:30.331Z] [FFMPEG STDERR 3]: [out#0/image2 @ 000001a833ded840]
+[2026-04-06T08:33:30.346Z] [FFMPEG STDERR 3]: video:264kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[2026-04-06T08:33:30.348Z] [FFMPEG STDERR 3]: frame=    1 fps=0.0 q=12.3 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-06T08:33:30.405Z] [SUCCESS 3] Saved to: audit_cmnmxmxi00005h22zhjax1n7r_3.jpg
+[2026-04-06T08:33:58.721Z] --- Audit cmnmxmxi00005h22zhjax1n7r Finished ---
+[2026-04-10T07:21:47.570Z] --- Starting Audit cmnskv9d10003dspuj0ptslrz for shift cmnskv9bx0001dspupa0400a0 (START) ---
+[2026-04-10T07:21:47.575Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T07:21:47.575Z] [CAPTURE 1] Target: audit_cmnskv9d10003dspuj0ptslrz_1.jpg
+[2026-04-10T07:21:51.168Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T07:21:52.718Z] [FFMPEG STDERR 1]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start:
+[2026-04-10T07:21:52.721Z] [FFMPEG STDERR 1]: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T07:21:52.753Z] [FFMPEG STDERR 1]: Stream mapping:
+[2026-04-10T07:21:52.756Z] [FFMPEG STDERR 1]: Stream #0:0 -> #0:
+[2026-04-10T07:21:52.759Z] [FFMPEG STDERR 1]: 0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T07:21:52.899Z] [FFMPEG STDERR 1]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnskv9d10003dspuj0ptslrz_1.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.10
+[2026-04-10T07:21:52.903Z] [FFMPEG STDERR 1]: 0
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T07:21:52.945Z] [FFMPEG STDERR 1]: frame=    0 fps=0.0 q=11.7 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:21:52.949Z] [FFMPEG STDERR 1]: [out#0/image2 @ 000002332a6d2040] video:222kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[2026-04-10T07:21:52.952Z] [FFMPEG STDERR 1]: frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:21:53.045Z] [SUCCESS 1] Saved to: audit_cmnskv9d10003dspuj0ptslrz_1.jpg
+[2026-04-10T07:21:58.091Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T07:21:58.092Z] [CAPTURE 2] Target: audit_cmnskv9d10003dspuj0ptslrz_2.jpg
+[2026-04-10T07:21:58.141Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-10T07:21:58.143Z] [FFMPEG STDERR 2]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T07:21:59.516Z] [FFMPEG STDERR 2]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T07:21:59.917Z] [FFMPEG STDERR 2]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T07:22:00.529Z] [FFMPEG STDERR 2]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnskv9d10003dspuj0ptslrz_2.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         :
+[2026-04-10T07:22:00.532Z] [FFMPEG STDERR 2]: Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T07:22:00.622Z] [FFMPEG STDERR 2]: frame=    0 fps=0.0 q=11.7 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:22:00.690Z] [FFMPEG STDERR 2]: [out#0/image2 @ 000001dcb4729740] video:222kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[2026-04-10T07:22:00.693Z] [FFMPEG STDERR 2]: frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:22:00.748Z] [SUCCESS 2] Saved to: audit_cmnskv9d10003dspuj0ptslrz_2.jpg
+[2026-04-10T07:22:38.117Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T07:22:38.117Z] [CAPTURE 3] Target: audit_cmnskv9d10003dspuj0ptslrz_3.jpg
+[2026-04-10T07:22:38.169Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-10T07:22:38.171Z] [FFMPEG STDERR 3]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T07:22:39.460Z] [FFMPEG STDERR 3]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000
+[2026-04-10T07:22:39.463Z] [FFMPEG STDERR 3]: , bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T07:22:39.467Z] [FFMPEG STDERR 3]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T07:22:39.526Z] [FFMPEG STDERR 3]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnskv9d10003dspuj0ptslrz_3.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+[2026-04-10T07:22:39.529Z] [FFMPEG STDERR 3]: Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T07:22:39.570Z] [FFMPEG STDERR 3]: frame=    0 fps=0.0 q=11.7 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:22:39.575Z] [FFMPEG STDERR 3]: [out#0/image2 @ 00000155fb2b1cc0]
+[2026-04-10T07:22:39.578Z] [FFMPEG STDERR 3]: video:221kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:22:39.598Z] [SUCCESS 3] Saved to: audit_cmnskv9d10003dspuj0ptslrz_3.jpg
+[2026-04-10T07:23:08.137Z] --- Audit cmnskv9d10003dspuj0ptslrz Finished ---
+[2026-04-10T07:23:49.118Z] --- Starting Audit cmnskxv5e0007dspuktmyocqh for shift cmnskxv4t0005dsputznid957 (START) ---
+[2026-04-10T07:23:49.119Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T07:23:49.120Z] [CAPTURE 1] Target: audit_cmnskxv5e0007dspuktmyocqh_1.jpg
+[2026-04-10T07:23:49.178Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T07:23:50.470Z] [FFMPEG STDERR 1]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T07:23:50.658Z] [FFMPEG STDERR 1]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T07:23:50.983Z] [FFMPEG STDERR 1]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnskxv5e0007dspuktmyocqh_1.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+[2026-04-10T07:23:50.987Z] [FFMPEG STDERR 1]: Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T07:23:51.057Z] [FFMPEG STDERR 1]: frame=    1 fps=0.0 q=11.7 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:23:51.062Z] [FFMPEG STDERR 1]: [out#0/image2 @ 000002b972171cc0]
+[2026-04-10T07:23:51.065Z] [FFMPEG STDERR 1]: video:221kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:23:51.113Z] [SUCCESS 1] Saved to: audit_cmnskxv5e0007dspuktmyocqh_1.jpg
+[2026-04-10T07:23:56.141Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T07:23:56.142Z] [CAPTURE 2] Target: audit_cmnskxv5e0007dspuktmyocqh_2.jpg
+[2026-04-10T07:23:56.186Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-10T07:23:56.189Z] [FFMPEG STDERR 2]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T07:23:57.623Z] [FFMPEG STDERR 2]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate:
+[2026-04-10T07:23:57.626Z] [FFMPEG STDERR 2]: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T07:23:57.647Z] [FFMPEG STDERR 2]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T07:23:57.729Z] [FFMPEG STDERR 2]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnskxv5e0007dspuktmyocqh_2.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+[2026-04-10T07:23:57.732Z] [FFMPEG STDERR 2]: Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T07:23:57.780Z] [FFMPEG STDERR 2]: frame=    1 fps=0.0 q=11.7 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:23:57.784Z] [FFMPEG STDERR 2]: [out#0/image2 @ 00000233ae150040]
+[2026-04-10T07:23:57.786Z] [FFMPEG STDERR 2]: video:222kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:23:57.828Z] [SUCCESS 2] Saved to: audit_cmnskxv5e0007dspuktmyocqh_2.jpg
+[2026-04-10T07:24:36.169Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T07:24:36.170Z] [CAPTURE 3] Target: audit_cmnskxv5e0007dspuktmyocqh_3.jpg
+[2026-04-10T07:24:36.212Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-10T07:24:36.215Z] [FFMPEG STDERR 3]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T07:24:37.532Z] [FFMPEG STDERR 3]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x108
+[2026-04-10T07:24:37.534Z] [FFMPEG STDERR 3]: 0, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T07:24:37.539Z] [FFMPEG STDERR 3]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T07:24:37.595Z] [FFMPEG STDERR 3]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnskxv5e0007dspuktmyocqh_3.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+[2026-04-10T07:24:37.597Z] [FFMPEG STDERR 3]: Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T07:24:37.623Z] [FFMPEG STDERR 3]: frame=    0 fps=0.0 q=11.7 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:24:37.627Z] [FFMPEG STDERR 3]: [out#0/image2 @ 0000028d1dfe44c0] video:223kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=11.7 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T07:24:37.645Z] [SUCCESS 3] Saved to: audit_cmnskxv5e0007dspuktmyocqh_3.jpg
+[2026-04-10T07:25:06.198Z] --- Audit cmnskxv5e0007dspuktmyocqh Finished ---
+[2026-04-10T08:17:53.570Z] --- Starting Audit cmnsmvekz0005jt7x0r300qoy for shift cmnsmvejv0003jt7xtwgrbi01 (START) ---
+[2026-04-10T08:17:53.574Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T08:17:53.575Z] [CAPTURE 1] Target: audit_cmnsmvekz0005jt7x0r300qoy_1.jpg
+[2026-04-10T08:17:54.001Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T08:17:55.152Z] [FFMPEG STDERR 1]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T08:17:55.296Z] [FFMPEG STDERR 1]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnsmvekz0005jt7x0r300qoy_1.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=12.2 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [out#0/image2 @ 0000017a1ddf1cc0] video:245kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=12.2 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:17:55.298Z] [SUCCESS 1] Saved to: audit_cmnsmvekz0005jt7x0r300qoy_1.jpg
+[2026-04-10T08:18:00.340Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T08:18:00.340Z] [CAPTURE 2] Target: audit_cmnsmvekz0005jt7x0r300qoy_2.jpg
+[2026-04-10T08:18:01.036Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T08:18:02.012Z] [FFMPEG STDERR 2]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T08:18:02.113Z] [FFMPEG STDERR 2]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T08:18:02.332Z] [FFMPEG STDERR 2]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnsmvekz0005jt7x0r300qoy_2.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T08:18:02.401Z] [FFMPEG STDERR 2]: frame=    1 fps=0.0 q=12.1 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:18:02.404Z] [FFMPEG STDERR 2]: 
+[2026-04-10T08:18:02.416Z] [FFMPEG STDERR 2]: [out#0/image2 @ 000002c43f7e1040] video:242kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=12.1 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:18:02.525Z] [SUCCESS 2] Saved to: audit_cmnsmvekz0005jt7x0r300qoy_2.jpg
+[2026-04-10T08:18:40.401Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T08:18:40.402Z] [CAPTURE 3] Target: audit_cmnsmvekz0005jt7x0r300qoy_3.jpg
+[2026-04-10T08:18:40.474Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-10T08:18:40.477Z] [FFMPEG STDERR 3]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T08:18:41.876Z] [FFMPEG STDERR 3]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080,
+[2026-04-10T08:18:41.878Z] [FFMPEG STDERR 3]: 20 fps, 20 tbr, 90k tbn
+[2026-04-10T08:18:41.882Z] [FFMPEG STDERR 3]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T08:18:41.942Z] [FFMPEG STDERR 3]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnsmvekz0005jt7x0r300qoy_3.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+[2026-04-10T08:18:41.945Z] [FFMPEG STDERR 3]: Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T08:18:41.968Z] [FFMPEG STDERR 3]: frame=    1 fps=0.0 q=12.1 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:18:41.972Z] [FFMPEG STDERR 3]: [out#0/image2 @ 000001e1906a1cc0] video:245kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=12.1 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:18:41.989Z] [SUCCESS 3] Saved to: audit_cmnsmvekz0005jt7x0r300qoy_3.jpg
+[2026-04-10T08:19:10.421Z] --- Audit cmnsmvekz0005jt7x0r300qoy Finished ---
+[2026-04-10T08:22:58.413Z] --- Starting Audit cmnsn1xsy0009jt7x2r99rm3w for shift cmnsmvejv0003jt7xtwgrbi01 (BREAK_END) ---
+[2026-04-10T08:22:58.415Z] [CAPTURE 1] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T08:22:58.416Z] [CAPTURE 1] Target: audit_cmnsn1xsy0009jt7x2r99rm3w_1.jpg
+[2026-04-10T08:22:58.708Z] [FFMPEG STDERR 1]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T08:23:00.005Z] [FFMPEG STDERR 1]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+[2026-04-10T08:23:00.008Z] [FFMPEG STDERR 1]: Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T08:23:00.132Z] [FFMPEG STDERR 1]: Stream mapping:
+[2026-04-10T08:23:00.151Z] [FFMPEG STDERR 1]: Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[2026-04-10T08:23:00.327Z] [FFMPEG STDERR 1]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnsn1xsy0009jt7x2r99rm3w_1.jpg':
+[2026-04-10T08:23:00.329Z] [FFMPEG STDERR 1]: Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T08:23:00.398Z] [FFMPEG STDERR 1]: frame=    1 fps=0.0 q=12.1 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:23:00.401Z] [FFMPEG STDERR 1]: 
+[2026-04-10T08:23:00.410Z] [FFMPEG STDERR 1]: [out#0/image2 @ 000001dff056e840] video:245kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[2026-04-10T08:23:00.412Z] [FFMPEG STDERR 1]: frame=    1 fps=0.0 q=12.1 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:23:00.480Z] [SUCCESS 1] Saved to: audit_cmnsn1xsy0009jt7x2r99rm3w_1.jpg
+[2026-04-10T08:23:05.508Z] [CAPTURE 2] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T08:23:05.508Z] [CAPTURE 2] Target: audit_cmnsn1xsy0009jt7x2r99rm3w_2.jpg
+[2026-04-10T08:23:05.840Z] [FFMPEG STDERR 2]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T08:23:07.291Z] [FFMPEG STDERR 2]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/
+[2026-04-10T08:23:07.293Z] [FFMPEG STDERR 2]: A, start: 0.050000, bitrate: N/A
+  Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T08:23:07.303Z] [FFMPEG STDERR 2]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+[2026-04-10T08:23:07.306Z] [FFMPEG STDERR 2]: Press [q] to stop, [?] for help
+[2026-04-10T08:23:07.402Z] [FFMPEG STDERR 2]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnsn1xsy0009jt7x2r99rm3w_2.jpg':
+[2026-04-10T08:23:07.404Z] [FFMPEG STDERR 2]: Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T08:23:07.451Z] [FFMPEG STDERR 2]: frame=    1 fps=0.0 q=12.2 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:23:07.453Z] [FFMPEG STDERR 2]: 
+[2026-04-10T08:23:07.456Z] [FFMPEG STDERR 2]: [out#0/image2 @ 0000023bff750500] video:246kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=12.2 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:23:07.496Z] [SUCCESS 2] Saved to: audit_cmnsn1xsy0009jt7x2r99rm3w_2.jpg
+[2026-04-10T08:23:45.542Z] [CAPTURE 3] Executing: C:\Users\автошкола\Desktop\souz\node_modules\ffmpeg-static\ffmpeg.exe
+[2026-04-10T08:23:45.543Z] [CAPTURE 3] Target: audit_cmnsn1xsy0009jt7x2r99rm3w_3.jpg
+[2026-04-10T08:23:45.590Z] [FFMPEG STDERR 3]: ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+[2026-04-10T08:23:45.591Z] [FFMPEG STDERR 3]: libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[2026-04-10T08:23:47.000Z] [FFMPEG STDERR 3]: Input #0, rtsp, from 'rtsp://185.154.72.229:554/user=www&password=654123&channel=1&stream=0?':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.050000, bitrate: N/A
+[2026-04-10T08:23:47.002Z] [FFMPEG STDERR 3]: Stream #0:0: Video: h264 (Main), yuvj420p(pc, bt709, progressive), 1920x1080, 20 fps, 20 tbr, 90k tbn
+[2026-04-10T08:23:47.007Z] [FFMPEG STDERR 3]: Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+[2026-04-10T08:23:47.010Z] [FFMPEG STDERR 3]: Press [q] to stop, [?] for help
+[2026-04-10T08:23:47.070Z] [FFMPEG STDERR 3]: Output #0, image2, to 'C:\Users\автошкола\Desktop\souz\public\uploads\audits\audit_cmnsn1xsy0009jt7x2r99rm3w_3.jpg':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf60.16.10
+[2026-04-10T08:23:47.072Z] [FFMPEG STDERR 3]: 0
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080, q=2-31, 200 kb/s, 20 fps, 20 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[2026-04-10T08:23:47.103Z] [FFMPEG STDERR 3]: frame=    1 fps=0.0 q=12.2 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:23:47.105Z] [FFMPEG STDERR 3]: 
+[2026-04-10T08:23:47.109Z] [FFMPEG STDERR 3]: [out#0/image2 @ 000002ca2f9c0480] video:247kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=12.2 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x
+[2026-04-10T08:23:47.129Z] [SUCCESS 3] Saved to: audit_cmnsn1xsy0009jt7x2r99rm3w_3.jpg
+[2026-04-10T08:24:15.563Z] --- Audit cmnsn1xsy0009jt7x2r99rm3w Finished ---
+[2026-04-10T08:30:07.781Z] Audit skipped: No shift found or no RTSP URL for branch cmnfo25t50004yho6bkb1593n
