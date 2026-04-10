@@ -1,4 +1,4 @@
-prodopog.ru, www.prodopog.ru {
+:80 {
     reverse_proxy adr-platform:3000
     
     # Enable gzipping for better performance
