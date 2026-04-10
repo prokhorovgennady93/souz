@@ -24,7 +24,7 @@ async function main() {
     
     // Выведем список всех филиалов для отладки
     const all = await prisma.branch.findMany({ select: { name: true } });
-    console.log("Доступные филиалы:", all.map(a => a.name).join(", "));
+    console.log("Доступные филиалы:", all.map((a: any) => a.name).join(", "));
   }
 }
 
