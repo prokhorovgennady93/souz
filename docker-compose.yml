@@ -10,7 +10,7 @@ services:
     environment:
       - DATABASE_URL=file:/app/prisma/data/prod.db
       - AUTH_SECRET=${AUTH_SECRET:-9f8e7d6c5b4a32109f8e7d6c5b4a3210}
-      - NEXTAUTH_URL=${NEXTAUTH_URL:-http://176.213.139.24:8008}
+      - NEXTAUTH_URL=${NEXTAUTH_URL:-http://176.213.139.24}
       - AUTH_TRUST_HOST=true
     restart: always
 
@@ -19,7 +19,7 @@ services:
     container_name: caddy-proxy
     restart: always
     ports:
-      - "8008:80"
+      - "80:80"
       - "443:443"
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
