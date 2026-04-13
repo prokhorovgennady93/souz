@@ -1,6 +1,11 @@
 :80 {
     reverse_proxy adr-platform:3000
     
+    handle_path /uploads/* {
+        root * /var/www/uploads
+        file_server
+    }
+    
     # Enable gzipping for better performance
     encode gzip
 }

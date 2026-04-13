@@ -6,6 +6,7 @@ services:
       - "3000"
     volumes:
       - ./data:/app/prisma/data
+      - ./uploads:/app/public/uploads
     environment:
       - DATABASE_URL=file:/app/prisma/data/prod.db
       - AUTH_SECRET=${AUTH_SECRET:-9f8e7d6c5b4a32109f8e7d6c5b4a3210}
@@ -22,6 +23,7 @@ services:
       - "443:443"
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./uploads:/var/www/uploads
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
