@@ -1,5 +1,8 @@
 export default {
   schema: "prisma/schema.prisma",
+  migrations: {
+    seed: "npx tsx prisma/seed.ts",
+  },
   datasource: {
     // В Prisma 7 используем переменную окружения DATABASE_URL или локальный файл
     // При деплое в Docker DATABASE_URL будет предоставлен контейнером
