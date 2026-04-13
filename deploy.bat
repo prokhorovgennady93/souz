@@ -8,7 +8,7 @@ echo.
 echo Connecting to Ubuntu Server (176.213.139.24)...
 echo Password is: 3ghZ3Z32
 echo.
-ssh -t grevelien@176.213.139.24 "if [ ! -d ~/souz ]; then echo 'Cloning repository...' && git clone https://github.com/prokhorovgennady93/souz.git ~/souz; fi; cd ~/souz && git pull && sudo docker-compose up -d --build --remove-orphans"
+ssh -t grevelien@176.213.139.24 "if [ ! -d ~/souz ]; then echo 'Cloning repository...' && git clone https://github.com/prokhorovgennady93/souz.git ~/souz; fi; cd ~/souz && git pull && npx prisma db push --accept-data-loss && npx prisma generate && sudo docker-compose up -d --build --remove-orphans"
 
 echo.
 echo Deployment finished!
