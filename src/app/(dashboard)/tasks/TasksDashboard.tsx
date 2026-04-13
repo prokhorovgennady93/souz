@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { CheckCircle2, Circle, AlertCircle, Megaphone, FileText, Camera, ClipboardList, Send, Calendar, Image as ImageIcon, UserCircle, Building2, ListPlus, Paperclip } from "lucide-react";
 import { format } from "date-fns";
-import Image from "next/image";
 import { ru } from "date-fns/locale";
 import { confirmNewsRead, getCompanyNews, deleteNews } from "@/app/actions/news";
 import { submitTaskResponse } from "@/app/actions/task";
@@ -320,7 +319,7 @@ function TaskCard({ task, mounted, onComplete }: { task: any, mounted: boolean, 
         {/* Instruction Image if exists */}
         {task.instructionImageUrl && (
           <div className="mt-4 relative aspect-video w-full rounded-2xl overflow-hidden border border-zinc-100 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/50 group/img">
-             <Image src={task.instructionImageUrl} alt="Instruction" fill className="object-cover transition-transform group-hover/img:scale-105" />
+             <img src={task.instructionImageUrl} alt="Instruction" className="w-full h-full object-cover transition-transform group-hover/img:scale-105" />
              <div className="absolute inset-0 bg-black/0 group-hover/img:bg-black/20 transition-colors flex items-center justify-center opacity-0 group-hover/img:opacity-100">
                 <span className="bg-white/90 dark:bg-zinc-900/90 p-2 rounded-xl text-[10px] font-black uppercase text-zinc-900 dark:text-zinc-50 shadow-xl flex items-center gap-2">
                    <ImageIcon className="w-3 h-3" /> Увеличить образец
@@ -489,7 +488,7 @@ function NewsCard({ item, onRead, onDelete, isAdmin, loading }: { item: any, onR
               {/* Media Content */}
               {item.imageUrl && (
                 <div className="relative aspect-video w-full rounded-2xl overflow-hidden border border-zinc-100 dark:border-zinc-800 shadow-sm max-w-2xl bg-zinc-50 dark:bg-zinc-800/20">
-                   <Image src={item.imageUrl} alt="News media" fill className="object-cover" />
+                   <img src={item.imageUrl} alt="News media" className="w-full h-full object-cover" />
                 </div>
               )}
 

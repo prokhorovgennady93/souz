@@ -19,7 +19,9 @@ export default function BranchList({ initialBranches }: { initialBranches: any[]
     openTime: "09:00",
     closeTime: "18:00",
     breakStartTime: "13:00",
-    breakEndTime: "14:00"
+    breakEndTime: "14:00",
+    expectedIp: "",
+    rtspUrl: ""
   });
 
   const handleOpenCreate = () => {
@@ -27,7 +29,8 @@ export default function BranchList({ initialBranches }: { initialBranches: any[]
     setFormData({
       name: "", address: "", scheduleType: "5/2",
       openTime: "09:00", closeTime: "18:00",
-      breakStartTime: "13:00", breakEndTime: "14:00"
+      breakStartTime: "13:00", breakEndTime: "14:00",
+      expectedIp: "", rtspUrl: ""
     });
     setIsModalOpen(true);
   };
@@ -41,7 +44,9 @@ export default function BranchList({ initialBranches }: { initialBranches: any[]
       openTime: branch.openTime,
       closeTime: branch.closeTime,
       breakStartTime: branch.breakStartTime,
-      breakEndTime: branch.breakEndTime
+      breakEndTime: branch.breakEndTime,
+      expectedIp: branch.expectedIp || "",
+      rtspUrl: branch.rtspUrl || ""
     });
     setIsModalOpen(true);
   };
@@ -141,6 +146,22 @@ export default function BranchList({ initialBranches }: { initialBranches: any[]
               </div>
             </div>
 
+            <div className="space-y-2 mb-6 border-t border-zinc-100 dark:border-zinc-800 pt-4">
+               <div className="flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-zinc-400">
+                  <span>Сетевые настройки</span>
+               </div>
+               <div className="flex flex-col gap-1">
+                  <div className="text-xs font-mono text-zinc-500 dark:text-zinc-400 truncate" title={branch.expectedIp || "IP не задан"}>
+                     <span className="text-[10px] font-bold text-zinc-300 dark:text-zinc-600 mr-1">IP:</span>
+                     {branch.expectedIp || "---"}
+                  </div>
+                  <div className="text-xs font-mono text-zinc-500 dark:text-zinc-400 truncate" title={branch.rtspUrl || "RTSP не задан"}>
+                     <span className="text-[10px] font-bold text-zinc-300 dark:text-zinc-600 mr-1">RTSP:</span>
+                     {branch.rtspUrl || "---"}
+                  </div>
+               </div>
+            </div>
+
             <div className="mt-auto -mx-6 -mb-6 px-6 py-4 bg-orange-50 dark:bg-orange-950/20 rounded-b-2xl border-t border-orange-100 dark:border-orange-900/30">
                <div className="text-sm text-orange-700 dark:text-orange-400 flex items-center gap-2 font-medium">
                  <span>🍽 Перерыв:</span>
@@ -201,6 +222,18 @@ export default function BranchList({ initialBranches }: { initialBranches: any[]
                     <label className="text-[10px] text-zinc-500 uppercase ml-1 text-orange-600">Обед (по)</label>
                     <input type="time" className="w-full mt-1 p-2 bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-700 rounded-lg" value={formData.breakEndTime} onChange={e => setFormData({...formData, breakEndTime: e.target.value})} />
                   </div>
+                </div>
+              </div>
+
+              <div className="pt-4 border-t border-zinc-100 dark:border-zinc-800 space-y-4">
+                <p className="text-sm font-semibold">Сетевые настройки (камеры)</p>
+                <div>
+                  <label className="text-[10px] text-zinc-500 uppercase ml-1">IP адрес филиала</label>
+                  <input type="text" className="w-full mt-1 p-2.5 bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-700 rounded-xl font-mono text-sm" value={formData.expectedIp} onChange={e => setFormData({...formData, expectedIp: e.target.value})} placeholder="Напр: 192.168.1.50" />
+                </div>
+                <div>
+                  <label className="text-[10px] text-zinc-500 uppercase ml-1">RTSP ссылка</label>
+                  <input type="text" className="w-full mt-1 p-2.5 bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-700 rounded-xl font-mono text-sm" value={formData.rtspUrl} onChange={e => setFormData({...formData, rtspUrl: e.target.value})} placeholder="rtsp://admin:pass@ip:port/..." />
                 </div>
               </div>
 

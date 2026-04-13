@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { ListPlus, Send, Camera, FileText, CheckSquare, Plus, Trash2, User, Building2, ShieldCheck, Clock, UserCircle, Image as ImageIcon, AlertCircle, X, Paperclip } from "lucide-react";
 import { createTask, getSearchData, updateTaskFull } from "@/app/actions/task";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 import TaskManagement from "./TaskManagement";
 
 export default function CreateTaskPage() {
@@ -283,7 +282,7 @@ export default function CreateTaskPage() {
                <div className="flex items-center gap-4">
                   <div className="relative w-32 h-32 bg-white dark:bg-zinc-900 rounded-2xl flex items-center justify-center border-2 border-zinc-100 overflow-hidden shadow-sm">
                      {instructionPreview ? (
-                       <Image src={instructionPreview} alt="Preview" fill className="object-cover" />
+                       <img src={instructionPreview} alt="Preview" className="w-full h-full object-cover" />
                      ) : (
                        <ImageIcon className="w-8 h-8 text-zinc-300" />
                      )}
