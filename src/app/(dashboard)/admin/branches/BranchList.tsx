@@ -175,14 +175,14 @@ export default function BranchList({ initialBranches }: { initialBranches: any[]
       {/* --- MODAL --- */}
       {isModalOpen && (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[999] flex items-center justify-center p-4">
-          <div className="bg-white dark:bg-zinc-900 w-full max-w-md rounded-2xl shadow-xl overflow-hidden border border-zinc-200 dark:border-zinc-800">
-            <div className="flex justify-between items-center p-4 border-b border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950/50">
+          <div className="bg-white dark:bg-zinc-900 w-full max-w-md max-h-[90vh] flex flex-col rounded-2xl shadow-xl overflow-hidden border border-zinc-200 dark:border-zinc-800">
+            <div className="flex justify-between items-center p-4 border-b border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950/50 shrink-0">
               <h3 className="font-bold text-lg text-brand-blue dark:text-brand-yellow">
                 {editingBranch ? "Редактировать филиал" : "Новый филиал"}
               </h3>
               <button onClick={() => setIsModalOpen(false)} className="text-zinc-400 hover:text-zinc-600"><X className="w-5 h-5"/></button>
             </div>
-            <div className="p-6 space-y-4">
+            <div className="p-6 space-y-4 overflow-y-auto">
               <div>
                 <label className="text-xs font-bold text-zinc-500 uppercase ml-1">Название офиса</label>
                 <input type="text" className="w-full mt-1 p-2.5 bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-700 rounded-xl" value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} placeholder="Напр: Ворошиловский, 91" />
