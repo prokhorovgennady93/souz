@@ -4,7 +4,7 @@ import * as xlsx from 'xlsx';
 const db = new PrismaClient();
 
 async function main() {
-  const filePath = 'C:/Users/автошкола/.gemini/antigravity/brain/46f937b8-666e-4159-98e7-e944e1d02c5b/camera_report.xlsx';
+  const filePath = './scripts/camera_report.xlsx';
   
   console.log(`Reading file: ${filePath}`);
   const workbook = xlsx.readFile(filePath);
