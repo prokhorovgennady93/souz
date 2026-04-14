@@ -61,11 +61,10 @@ export async function conductShiftAudit(shiftId: string, actionType: string) {
 
     debugLog(`--- Starting Audit ${audit.id} for shift ${shiftId} (${actionType}) ---`);
 
-    // Сначала ОБЯЗАТЕЛЬНЫЙ первый кадр (0 сек)
-    await captureSingleSnapshot(audit.id, rtspUrl, 0);
-
-    // Остальные кадры (5 и 10 сек) в фоне
+    // Все кадры (0, 5 и 10 сек) запускаем в фоне, чтобы не блокировать UI
     (async () => {
+      debugLog(`[AUDIT BG] Starting async capture sequence for audit ${audit.id}`);
+      await captureSingleSnapshot(audit.id, rtspUrl, 0); // 0 сек
       await captureSingleSnapshot(audit.id, rtspUrl, 1); // 5 сек
       await captureSingleSnapshot(audit.id, rtspUrl, 2); // 10 сек
       debugLog(`--- Audit ${audit.id} Finished ---`);
@@ -134,6 +133,7 @@ async function captureSingleSnapshot(auditId: string, rtspUrl: string, index: nu
     const ffmpegProcess = spawn(ffmpegPath, [
       "-y",
       "-rtsp_transport", "tcp",
+      "-stimeout", "5000000", // 5 секунд таймаут соединения (в микросекундах)
       "-analyzeduration", "1000000",
       "-probesize", "1000000",
       "-i", rtspUrl,

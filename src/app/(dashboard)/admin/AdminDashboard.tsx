@@ -62,6 +62,7 @@ export default function AdminDashboard() {
          </h3>
          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <AdminButton href="/admin/monitoring" icon={Camera} title="Мониторинг" desc="Онлайн-трансляции и скриншоты" />
+            <AdminButton href="/admin/logs" icon={History} title="Логи камер" desc="Технический отчет работы камер" />
             <AdminButton href="/admin/tasks/reports" icon={ClipboardList} title="Выполнение задач" desc="Просмотр результатов и фотоотчетов" />
             <AdminButton href="/admin/news/reports" icon={CheckCircle2} title="Отчёт по новостям" desc="Кто и когда прочитал объявления" />
             <AdminButton href="/admin/reports/work" icon={History} title="Отчёт по работе" desc="Анализ опозданий и перерывов" />
