@@ -26,10 +26,10 @@ async function main() {
     if (!rtspUrl || rtspUrl === 'Нет данных' || rtspUrl === '-') continue;
 
     // Try to find by exact name then partial name
-    let targetBranch = branches.find(b => b.name === dbName);
+    let targetBranch: any = branches.find((b: any) => b.name === dbName);
     
     if (!targetBranch && textName && textName !== '-') {
-      targetBranch = branches.find(b => b.name.toLowerCase().includes(textName.toLowerCase()));
+      targetBranch = branches.find((b: any) => b.name.toLowerCase().includes(textName.toLowerCase()));
     }
 
     if (targetBranch) {

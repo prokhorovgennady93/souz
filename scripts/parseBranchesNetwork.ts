@@ -14,10 +14,10 @@ async function main() {
   let updated = 0;
 
   for (const row of rows) {
-    const [id, name, rtspUrl, expectedIp] = row as any[];
+    const [id, name, rtspUrl, expectedIp] = row as any;
     if (id) {
       // Check if branch exists
-      const branch = await db.branch.findUnique({ where: { id: String(id) } });
+      const branch: any = await db.branch.findUnique({ where: { id: String(id) } });
       if (branch) {
         await db.branch.update({
           where: { id: String(id) },
