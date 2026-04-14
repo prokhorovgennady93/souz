@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { deleteBranch, createBranch, updateBranch } from "@/app/actions/branch";
-import { Trash2, Edit2, MapPin, Clock, Search, Plus, X } from "lucide-react";
+import { deleteBranch, createBranch, updateBranch, syncBranchesNetwork } from "@/app/actions/branch";
+import { Trash2, Edit2, MapPin, Clock, Search, Plus, X, RefreshCw } from "lucide-react";
 
 export default function BranchList({ initialBranches }: { initialBranches: any[] }) {
   const [branches, setBranches] = useState(initialBranches);
@@ -79,6 +79,20 @@ export default function BranchList({ initialBranches }: { initialBranches: any[]
     setLoading(null);
   };
 
+  const handleSync = async () => {
+    if (!confirm("Вы действительно хотите синхронизировать данные из отчета? Это обновит IP и RTSP для всех найденных филиалов.")) return;
+    setLoading("sync");
+    const res = await syncBranchesNetwork();
+    setLoading(null);
+    if (res?.error) {
+      alert(res.error);
+    } else {
+      alert(res.message || "Синхронизация завершена");
+      window.location.reload();
+    }
+  };
+
+
   const filteredBranches = branches.filter(b => 
     b.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
     b.address.toLowerCase().includes(searchQuery.toLowerCase())
@@ -97,12 +111,23 @@ export default function BranchList({ initialBranches }: { initialBranches: any[]
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
-        <button 
-          onClick={handleOpenCreate}
-          className="flex items-center gap-2 px-6 py-2.5 bg-brand-blue hover:bg-brand-blue-hover text-brand-yellow font-bold rounded-xl transition-colors"
-        >
-          <Plus className="w-5 h-5" /> Добавить филиал
-        </button>
+        <div className="flex gap-2">
+           <button 
+            onClick={handleSync}
+            disabled={loading === "sync"}
+            className="flex items-center gap-2 px-5 py-2.5 bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-900 dark:text-zinc-100 rounded-xl font-medium transition-all disabled:opacity-50"
+          >
+            <RefreshCw className={`w-5 h-5 ${loading === "sync" ? "animate-spin" : ""}`} />
+            <span className="hidden sm:inline">Синхронизировать</span>
+          </button>
+          <button 
+            onClick={handleOpenCreate}
+            className="flex items-center gap-2 px-5 py-2.5 bg-brand-blue hover:bg-brand-blue/90 text-white rounded-xl font-medium shadow-lg shadow-brand-blue/20 transition-all active:scale-[0.98]"
+          >
+            <Plus className="w-5 h-5" />
+            <span>Добавить филиал</span>
+          </button>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
