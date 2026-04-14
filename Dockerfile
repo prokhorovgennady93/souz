@@ -1,5 +1,5 @@
 FROM public.ecr.aws/docker/library/node:22-slim AS base
-RUN apt-get update && apt-get install -y openssl ca-certificates && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y openssl ca-certificates ffmpeg && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 
 # Install dependencies only when needed

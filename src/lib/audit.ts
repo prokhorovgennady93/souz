@@ -94,36 +94,34 @@ async function captureSingleSnapshot(auditId: string, rtspUrl: string, index: nu
     await new Promise(resolve => setTimeout(resolve, delay * 1000));
   }
 
-  // Dinamically find the ffmpeg binary using ffmpeg-static package
-  let ffmpegPath: string | null = null;
-  try {
-    // Try to use the package
-    const ffmpegStatic = require('ffmpeg-static');
-    ffmpegPath = typeof ffmpegStatic === 'string' ? ffmpegStatic : ffmpegStatic.path;
-  } catch (e) {
-    debugLog(`Warning: could not require ffmpeg-static: ${String(e)}`);
-  }
+  // Detect platform and find ffmpeg path
+  const isWindows = process.platform === "win32";
+  let ffmpegPath = isWindows ? "ffmpeg.exe" : "ffmpeg";
 
-  // Fallback for standalone build or if package resolution fails
-  if (!ffmpegPath || !fs.existsSync(ffmpegPath)) {
-    const possiblePaths = [
-      path.resolve(process.cwd(), "node_modules/ffmpeg-static/ffmpeg"),
-      path.resolve(process.cwd(), "node_modules/ffmpeg-static/ffmpeg.exe"),
-      "/usr/bin/ffmpeg", // Common Linux path
-      "ffmpeg" // Hope it is in PATH
-    ];
-    
-    for (const p of possiblePaths) {
-      if (fs.existsSync(p)) {
-        ffmpegPath = p;
-        break;
-      }
+  // Check common system-wide locations first (especially for Linux/Docker)
+  const commonPaths = isWindows 
+    ? [] 
+    : ["/usr/bin/ffmpeg", "/usr/local/bin/ffmpeg"];
+  
+  for (const p of commonPaths) {
+    if (fs.existsSync(p)) {
+      ffmpegPath = p;
+      break;
     }
   }
 
-  if (!ffmpegPath) {
-    debugLog(`CRITICAL ERROR: FFmpeg binary NOT found in any known locations.`);
-    return;
+  // Fallback to ffmpeg-static if system binary is not found OR if we are on Windows
+  // (ffmpeg-static is very reliable for local Windows dev)
+  if (isWindows || (ffmpegPath === "ffmpeg" && !fs.existsSync("/usr/bin/ffmpeg"))) {
+    try {
+      const ffmpegStatic = require('ffmpeg-static');
+      const staticPath = typeof ffmpegStatic === 'string' ? ffmpegStatic : ffmpegStatic.path;
+      if (staticPath && fs.existsSync(staticPath)) {
+        ffmpegPath = staticPath;
+      }
+    } catch (e) {
+      // ignore
+    }
   }
 
   return new Promise((resolve) => {
