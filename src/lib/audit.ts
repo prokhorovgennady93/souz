@@ -131,7 +131,6 @@ async function captureSingleSnapshot(auditId: string, rtspUrl: string, index: nu
     const ffmpegProcess = spawn(ffmpegPath, [
       "-y",
       "-rtsp_transport", "tcp",
-      "-stimeout", "5000000", // 5 секунд таймаут соединения (в микросекундах)
       "-analyzeduration", "1000000",
       "-probesize", "1000000",
       "-i", rtspUrl,
