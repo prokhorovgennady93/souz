@@ -95,12 +95,35 @@ async function captureSingleSnapshot(auditId: string, rtspUrl: string, index: nu
     await new Promise(resolve => setTimeout(resolve, delay * 1000));
   }
 
-  // Принудительно находим бинарник в node_modules, 
-  // так как Next.js может «прятать» его в свои папки сборки (.next), где он не запускается на Windows.
-  const ffmpegPath = path.resolve(process.cwd(), "node_modules/ffmpeg-static/ffmpeg.exe");
+  // Dinamically find the ffmpeg binary using ffmpeg-static package
+  let ffmpegPath: string | null = null;
+  try {
+    // Try to use the package
+    const ffmpegStatic = require('ffmpeg-static');
+    ffmpegPath = typeof ffmpegStatic === 'string' ? ffmpegStatic : ffmpegStatic.path;
+  } catch (e) {
+    debugLog(`Warning: could not require ffmpeg-static: ${String(e)}`);
+  }
 
-  if (!fs.existsSync(ffmpegPath)) {
-    debugLog(`CRITICAL ERROR: FFmpeg binary NOT found at: ${ffmpegPath}`);
+  // Fallback for standalone build or if package resolution fails
+  if (!ffmpegPath || !fs.existsSync(ffmpegPath)) {
+    const possiblePaths = [
+      path.resolve(process.cwd(), "node_modules/ffmpeg-static/ffmpeg"),
+      path.resolve(process.cwd(), "node_modules/ffmpeg-static/ffmpeg.exe"),
+      "/usr/bin/ffmpeg", // Common Linux path
+      "ffmpeg" // Hope it is in PATH
+    ];
+    
+    for (const p of possiblePaths) {
+      if (fs.existsSync(p)) {
+        ffmpegPath = p;
+        break;
+      }
+    }
+  }
+
+  if (!ffmpegPath) {
+    debugLog(`CRITICAL ERROR: FFmpeg binary NOT found in any known locations.`);
     return;
   }
 
