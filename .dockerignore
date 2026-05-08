@@ -16,3 +16,9 @@ Dockerfile
 docker-compose.yml
 vps_deployment.md
 README.md
+scratch/
+*.xlsx
+*.md
+!implementation_plan.md
+!walkthrough.md
+!task.md

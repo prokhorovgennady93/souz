@@ -14,7 +14,7 @@ async function main() {
 
   let output = "| Филиал | IP-адрес | RTSP URL |\n"
   output += "|---|---|---|\n"
-  branches.forEach(b => {
+  branches.forEach((b: any) => {
     output += `| ${b.name} | ${b.expectedIp || "N/A"} | ${b.rtspUrl || "N/A"} |\n`
   })
 
