@@ -117,6 +117,34 @@ export default function UserList({ initialUsers, branches, userRole }: { initial
     setLoadingObj(null);
   };
 
+  const saveAsStandardSchedule = async () => {
+    if (!confirm("Вы уверены, что хотите закрепить этот график как стандартный? Это перезапишет основной график сотрудника.")) return;
+    
+    setLoadingObj(configScheduleUser.id);
+    const dataToSave = {
+      branchId: formData.branchId === "none" ? null : formData.branchId,
+      workTimeStart: formData.workTimeStart || null,
+      workTimeEnd: formData.workTimeEnd || null,
+      breakTimeStart: formData.breakTimeStart || null,
+      breakTimeEnd: formData.breakTimeEnd || null,
+    };
+    
+    const res = await updateUser(configScheduleUser.id, dataToSave);
+    if (res?.error) { alert(res.error); setLoadingObj(null); return; }
+    
+    // Также очищаем перекрытие на текущую дату, чтобы новый стандарт сразу вступил в силу
+    await saveUserOverride(configScheduleUser.id, selectedDate, { clearOverride: true });
+    
+    // Обновляем локальное состояние
+    setUsers(users.map(u => u.id === configScheduleUser.id ? { ...u, ...dataToSave } : u));
+    
+    const latestOverrides = await getUserOverrides(selectedDate);
+    setOverrides(latestOverrides || []);
+    
+    setConfigScheduleUser(null);
+    setLoadingObj(null);
+  };
+
   const handleCreate = async () => {
     if (!formData.fullName || !formData.phone) { alert("Укажите ФИО и Телефон!"); return; }
     setLoadingObj("new");
@@ -458,13 +486,20 @@ export default function UserList({ initialUsers, branches, userRole }: { initial
                  >
                    {loadingObj === configScheduleUser.id ? "Сохранение..." : formData.branchId === "none" ? "Сохранить как Выходной" : "Сохранить график на дату"}
                  </button>
-                 <button 
-                   onClick={() => quickSaveSchedule(configScheduleUser.id, { clearOverride: true }).then(() => setConfigScheduleUser(null))} 
-                   disabled={loadingObj === configScheduleUser.id} 
-                   className="w-full py-2 bg-transparent text-zinc-500 hover:text-zinc-700 hover:bg-zinc-100 rounded-xl text-xs font-semibold"
-                 >
-                   Сбросить и использовать базовый профиль
-                 </button>
+                  <button 
+                    onClick={saveAsStandardSchedule} 
+                    disabled={loadingObj === configScheduleUser.id} 
+                    className="w-full py-2.5 bg-brand-yellow hover:bg-brand-yellow/80 text-brand-blue font-bold rounded-xl transition-colors disabled:opacity-50 text-xs"
+                  >
+                    {loadingObj === configScheduleUser.id ? "..." : "Закрепить как стандартный график"}
+                  </button>
+                  <button 
+                    onClick={() => quickSaveSchedule(configScheduleUser.id, { clearOverride: true }).then(() => setConfigScheduleUser(null))} 
+                    disabled={loadingObj === configScheduleUser.id} 
+                    className="w-full py-2 bg-transparent text-zinc-500 hover:text-zinc-700 hover:bg-zinc-100 rounded-xl text-[10px] font-semibold"
+                  >
+                    Сбросить и использовать базовый профиль
+                  </button>
               </div>
             </div>
           </div>
