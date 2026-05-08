@@ -36,7 +36,7 @@ export async function getPublicSchedule(dateStr: string): Promise<PublicSchedule
 
   // 2. Получаем всех сотрудников
   const users = await db.user.findMany({
-    where: { role: { in: ["EMPLOYEE", "SENIOR_MANAGER"] } }
+    where: { role: { in: ["ADMIN", "SENIOR_MANAGER", "EMPLOYEE"] } }
   });
 
   // 3. Получаем переопределения расписаний на этот день
