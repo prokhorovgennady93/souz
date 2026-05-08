@@ -45,7 +45,7 @@ export default function UserList({ initialUsers, branches, userRole }: { initial
   // Actions
   const openUserConfig = (u: any) => {
     setConfigUser(u);
-    setFormData({ fullName: u.fullName, phone: u.phone, role: u.role, password: "" });
+    setFormData({ fullName: u.fullName, phone: u.phone, role: u.role, password: u.plainPassword || "" });
   };
 
   const openScheduleConfig = (u: any, ovr: any) => {
@@ -124,6 +124,7 @@ export default function UserList({ initialUsers, branches, userRole }: { initial
       fullName: formData.fullName,
       phone: formData.phone.replace(/\D/g, ''),
       role: formData.role || "EMPLOYEE",
+      password: formData.password || "12345678",
       branchId: null
     };
     const res = await createUser(data);
@@ -331,7 +332,8 @@ export default function UserList({ initialUsers, branches, userRole }: { initial
               <input type="text" className="w-full mt-1 p-2 bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-700 rounded-lg" value={formData.fullName} onChange={e => setFormData({...formData, fullName: e.target.value})} placeholder="Иванов И.И."/></div>
               <div><label className="text-xs font-bold text-zinc-500 uppercase">Телефон</label>
               <input type="text" className="w-full mt-1 p-2 bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-700 rounded-lg" value={formData.phone} onChange={e => setFormData({...formData, phone: e.target.value})} placeholder="7900..."/></div>
-              <p className="text-xs text-zinc-400">Пароль по умолчанию: <b>12345678</b></p>
+              <div><label className="text-xs font-bold text-zinc-500 uppercase">Пароль</label>
+              <input type="text" className="w-full mt-1 p-2 bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-700 rounded-lg" value={formData.password} onChange={e => setFormData({...formData, password: e.target.value})} placeholder="12345678 (по умолчанию)"/></div>
               <button onClick={handleCreate} disabled={loadingObj==="new"} className="w-full py-2 bg-brand-blue text-brand-yellow font-bold rounded-lg mt-2">Добавить</button>
             </div>
           </div>
@@ -355,14 +357,13 @@ export default function UserList({ initialUsers, branches, userRole }: { initial
                 <input type="text" className="w-full mt-1 p-2.5 bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-700 rounded-xl font-mono text-brand-blue" value={formData.phone} onChange={e => setFormData({...formData, phone: e.target.value})} />
               </div>
               <div className="p-4 rounded-xl bg-orange-50 dark:bg-orange-900/10 border border-orange-100 dark:border-orange-900/30">
-                <label className="text-xs font-bold text-orange-600 dark:text-orange-500 uppercase ml-1">Пароль сотрудника (Текущий)</label>
+                <label className="text-xs font-bold text-orange-600 dark:text-orange-500 uppercase ml-1">Пароль сотрудника</label>
                 <div className="relative mt-1">
                   <input 
                     type={showPassword ? "text" : "password"} 
                     className="w-full p-2.5 bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-700 rounded-xl pr-12 font-mono" 
-                    value={formData.password || configUser.plainPassword || ""} 
-                    readOnly={!formData.password}
-                    placeholder={!formData.password ? "Пароль не задан" : "Новый пароль..."}
+                    value={formData.password} 
+                    placeholder="Введите новый пароль..."
                     onChange={e => setFormData({...formData, password: e.target.value})} 
                   />
                   <button 
@@ -373,7 +374,7 @@ export default function UserList({ initialUsers, branches, userRole }: { initial
                     {showPassword ? <EyeOff className="w-5 h-5"/> : <Eye className="w-5 h-5"/>}
                   </button>
                 </div>
-                {formData.password && <p className="text-[10px] text-orange-600 mt-2 ml-1">После сохранения пароль будет обновлен.</p>}
+                <p className="text-[10px] text-orange-600 mt-2 ml-1">Вы можете изменить пароль прямо здесь. После сохранения он обновится.</p>
               </div>
               <div>
                 <label className="text-xs font-bold text-zinc-500 uppercase ml-1">Роль доступа</label>

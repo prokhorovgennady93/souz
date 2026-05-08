@@ -31,7 +31,7 @@ export async function POST(req: Request) {
 
     let updated = 0;
     let created = 0;
-    const defaultPlainPassword = "123456";
+    const defaultPlainPassword = "12345678";
     const defaultPassword = await hash(defaultPlainPassword, 12);
 
     for (const row of jsonData as any[]) {

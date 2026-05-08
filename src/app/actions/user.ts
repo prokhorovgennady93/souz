@@ -81,7 +81,7 @@ export async function createUser(data: any) {
   if (role !== "ADMIN" && role !== "SENIOR_MANAGER") return { error: "Недостаточно прав" };
 
   try {
-    const plainPassword = data.password || "123456";
+    const plainPassword = data.password || "12345678";
     const password = await hash(plainPassword, 12);
     await db.user.create({
       data: { ...data, password, plainPassword }
