@@ -79,13 +79,14 @@ export async function getPublicSchedule(dateStr: string): Promise<PublicSchedule
     }
 
     if (shift) {
-      const openTime = format(new Date(shift.openedAt), "HH:mm");
+      const timeFormatter = new Intl.DateTimeFormat("ru-RU", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Moscow" });
+      const openTime = timeFormatter.format(new Date(shift.openedAt));
       status = `Смена открыта в ${openTime}`;
       statusType = "open";
       
-      const currentBreak = shift.breaks.find(b => b.endedAt === null);
+      const currentBreak = shift.breaks.find((b: any) => b.endedAt === null);
       if (currentBreak) {
-         status = `Перерыв с ${format(new Date(currentBreak.startedAt), "HH:mm")}`;
+         status = `Перерыв с ${timeFormatter.format(new Date(currentBreak.startedAt))}`;
          statusType = "break";
       } else if (shift.closedAt) {
          status = "Смена закрыта"; 
