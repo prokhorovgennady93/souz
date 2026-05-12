@@ -246,7 +246,7 @@ model TaskResponse {
   imageUrl         String?  // Stored in public/uploads/tasks/
   
   completion       TaskCompletion @relation(fields: [completionId], references: [id], onDelete: Cascade)
-  requirement      TaskRequirement @relation(fields: [requirementId], references: [id])
+  requirement      TaskRequirement @relation(fields: [requirementId], references: [id], onDelete: Cascade)
 }
 
 model News {
