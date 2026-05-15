@@ -312,7 +312,7 @@ function TaskCard({ task, mounted, onComplete }: { task: any, mounted: boolean, 
 
 
         <h3 className="text-xl font-bold text-zinc-900 dark:text-zinc-50 group-hover:text-brand-blue dark:group-hover:text-brand-yellow transition-colors">{task.title}</h3>
-        <p className="mt-2 text-zinc-500 dark:text-zinc-400 text-sm line-clamp-2 leading-relaxed">
+        <p className="mt-2 text-zinc-500 dark:text-zinc-400 text-sm leading-relaxed whitespace-pre-wrap">
           {task.description || "Нет описания"}
         </p>
 
